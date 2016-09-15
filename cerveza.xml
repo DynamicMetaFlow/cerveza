@@ -2,8 +2,8 @@
   <block type="controls_whileUntil" id="743" inline="false" x="113" y="13">
     <field name="MODE">WHILE</field>
     <value name="NUMBER">
-      <block type="math_single" id="798" inline="true">
-        <field name="OP">ABS</field>
+      <block type="sensor_light" id="814">
+        <field name="LIGHT">RIGHT</field>
       </block>
     </value>
     <statement name="DO">
