@@ -28,7 +28,11 @@
                               </block>
                             </value>
                             <next>
-                              <block type="movement_stop" id="671"></block>
+                              <block type="movement_forward" id="681">
+                                <next>
+                                  <block type="movement_stop" id="671"></block>
+                                </next>
+                              </block>
                             </next>
                           </block>
                         </next>
